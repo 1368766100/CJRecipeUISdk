@@ -1,0 +1,54 @@
+{
+  "name": "CJRecipeUISdk",
+  "authors": {
+    "jt": "jt"
+  },
+  "cocoapods_version": ">= 1.10",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1368766100",
+  "license": "none",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "http": "https://rinoiot-iot-dev-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231017/cWcDX8hZwNYQma_ios_1697522605791.zip",
+    "type": "zip"
+  },
+  "summary": "A short description of CJRecipeUISdk.",
+  "vendored_frameworks": "Build/CJRecipeUISdk.xcframework",
+  "version": "1.0.0",
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "MJExtension": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "DKNightVersion": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDCycleScrollView": [
+
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "EXCLUDED_ARCHS[sdk=watchsimulator*]": "x86_64 arm64"
+  }
+}
