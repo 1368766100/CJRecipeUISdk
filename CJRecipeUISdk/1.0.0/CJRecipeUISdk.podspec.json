@@ -11,7 +11,8 @@
     "ios": "11.0"
   },
   "source": {
-    "http": "https://rinoiot-iot-dev-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231019/6fhxlGoWaEGGDD_ios_1697690540588.zip"
+    "http": "https://rinoiot-iot-dev-1313015441.cos.ap-guangzhou.myqcloud.com/app/20231019/6fhxlGoWaEGGDD_ios_1697690540588.zip",
+    "type": "zip"
   },
   "summary": "A short description of CJRecipeUISdk.",
   "vendored_frameworks": "Build/CJRecipeUISdk.xcframework",
